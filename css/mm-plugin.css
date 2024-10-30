@@ -1,0 +1,289 @@
+/** MediaMiles Plugin Stylesheet **/
+.laudd-html {
+margin-top:20px; padding:0px; 
+background-size:cover; font-family:"opensans";
+float:left; width:98%;}
+*{margin:0px; padding:0px; text-decoration:none;}
+.laudd-metrics-html{background :#fff !important; overflow: auto;}
+.laudd-html .container{width:940px; margin:0 auto;}
+@font-face{font-family:"openlt";src:url(../fonts/OpenSans-Light.ttf);	}
+@font-face{font-family:"opensans";src:url(../fonts/OpenSans-Regular.ttf);	}
+@font-face{font-family:"opensemibold";src:url(../fonts/OpenSans-Semibold.ttf);}
+@font-face{font-family:"openbold";src:url(../fonts/OpenSans-Bold.ttf);	}
+
+.laudd-html .header{float:left; width:100%;}
+.laudd-html .header-inner{float:left; width:100%; padding:10px 0; border-bottom:1px solid rgba(255,255,255,0.2);}
+.laudd-html .logo{width: 100%; text-align: center; display: inline-block;}
+.laudd-html .nav{float:right;}
+.laudd-html .nav ul{float:left; list-style:none;}
+.laudd-html .nav li{float:left; margin:0 0 0 30px;}
+.laudd-html .nav li a{float:left; font-size:14px; color:#fff; font-family:"openlt"; line-height:32px;}
+.laudd-html .nav li a:hover{color:#eee;}
+
+.laudd-html .content{float:left; width:100%; margin:30px 0;min-height: 600px;}
+.laudd-html .content-inner{float:left; width:100%; background-color:#fff;border: 1px solid rgba(0,0,0,0.25);}
+.laudd-html .lt-cont{float:left; width:45%; padding:5%; background-color: rgba(0,0,0,0.1); background-size:cover;min-height:650px;}
+.laudd-html .heading{float:left; width:100%; font-family:"openbold"; font-size:32px; text-align:center; margin:40px 0 0;}
+.laudd-html .reg-points{float:left; width:100%;}
+.laudd-html .reg-points ul{float:left; width:100%; list-style:none; margin:0 0 50px;}
+.laudd-html .reg-points ul li{float:left; width:100%; margin:50px 0 0;}
+.laudd-html .reg-points ul li .icon{float:left; width:13%; padding:4px 0 0;}
+.laudd-html .reg-points ul li .icon img{float:left;}
+.laudd-html .reg-points ul li .icon-text{float:right; width:85%;}
+.ty-html  .icon-heading{font-size:20px !important; line-height:30px;}
+.laudd-html .icon-heading{float:left; width:100%; font-family:"openbold";  font-size:16px;}
+.laudd-html .icon-txt{float:left; width:100%; font-family:"opensans";  font-size:13px; line-height:20px;}
+
+.laudd-html .rt-cont{float:left; width:25%; padding:5% 10%;}
+.laudd-html .rt-cont-domain{float:left; width:41%; padding:5% 2%;}
+.laudd-html .rt-cont-domain p{text-align: justify; margin: 20px 0px; float: left;}
+.laudd-html .rt-cont-domain .get-txt{line-height:30px;text-align:left;}
+.laudd-html .get-txt{float:left; width:100%; font-family:"opensans"; font-size:23px; text-align:center; color:#777;line-height:normal;padding-bottom:5px;}
+.laudd-html .comp-free{float:left; width:100%; font-family:"opensemibold"; font-size:17px; text-align:center; color:#000; background:url(../images/btn-bg.png) no-repeat; background-size:100%; line-height:37px; margin:13px 0 25px;}
+.laudd-html .form{float:left; width:100%;}
+.laudd-html .form input[type="text"]{float:left; width:93%; border:1px solid #ddd; font-family:"opensans"; font-size:13px; padding:7px 3.5%; margin:0 0 10px; outline:none;}
+.laudd-html .form input[type="password"]{float:left; width:93%; border:1px solid #ddd; font-family:"opensans"; font-size:13px; padding:7px 3.5%; margin:0 0 10px; outline:none;}
+.laudd-html .form input[type="submit"]{float:left; width:93%; background:#14924a; border-radius:4px; border:none; line-height:38px; font-family:"opensemibold"; font-size:14px; color:#fff; text-align:center; cursor:pointer; outline:none;}
+.laudd-html .form #submitDomain{float:left; width:93%; background:#14924a; border-radius:4px; border:none; line-height:38px; font-family:"opensemibold"; font-size:14px; color:#fff; text-align:center; cursor:pointer; outline:none;}
+.laudd-html .form input[type="submit"]:hover{background:#138845;}
+.laudd-html .form #submitDomain:hover{background:#138845;}
+
+/* Login Starts */
+.laudd-html .content-inner-login{float:left; width:40%; margin:0 27%; background:#fff; padding:3%;}
+.laudd-html .login-txt{float:left; width:100%; font-family:"opensans"; font-size:23px; text-align:center; color:#777; margin:0 0 10px;line-height:30px;}
+.laudd-html .thank-txt{float:left; width:100%; margin:0 0 30px; font-size: 15px; color: #e0e0e0; font-family: "openlt"; letter-spacing:0.3px; line-height: 30px;}
+
+.usr_stats_tbl{width:100%;float:left;}
+.tr_heading th{border: 0 none !important;text-align: center;color:#14924a;font:13px Arial, Helvetica, sans-serif;cursor:pointer;}
+table, th, td {border: 1px solid #dddddd;border-collapse: collapse;color: #000;padding: 11px;}
+th.seven_days {color: #000;float: right;font-weight: bold;cursor:pointer;}
+.tr_main_heading td
+{border: 0 none;border-top: 1px solid #dddddd;text-align: center;color:#000;padding: 4px 11px 1px;background:#f2f2f2;font:13px Arial, Helvetica, sans-serif;	}
+.tr_subcontent td{ border: 0 none;border-top: 1px solid #dddddd;font:13px Arial, Helvetica, sans-serif;	padding: 14px 11px 11px;text-align: center;}
+.craft_cont {float: left;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 325px;}
+.plus {float: left;}
+.plus a img {left: 8px;margin-top: -6px;position: relative;top: 5px;width: 18px;cursor:pointer;}
+.tr_subcontent1 td{border: 0 none;border-top: 1px solid #dddddd;font:13px Arial, Helvetica, sans-serif;padding: 15px 14px;text-align: center;}
+.tr_subcontent1 td.align_left{text-align:left;		}
+.tr_main_heading1 td.align_left{text-align:left;	}
+.tr_main_heading1 td
+{
+    border: 0 none;
+	 border-top: 1px solid #dddddd;
+    text-align: center;
+	color:#000;
+	padding: 4px 11px 1px;
+	background:#f2f2f2;
+	font:13px Arial, Helvetica, sans-serif;	
+}
+.seven_days1
+{
+    color:#000 !important;
+	font-weight:bold !important;
+}
+
+
+
+.tr_heading1 th
+{
+    border: 0 none !important;
+    text-align: center;
+	color:#14924a;
+	font:13px Arial, Helvetica, sans-serif;	
+}
+.loading-gif-img{
+	height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.loading-gif-img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; /* presto! */
+}
+div.heading-above-user-table, div.heading-above-content-table{
+      border: 1px solid #dddddd;
+    border-collapse: collapse;
+    color: #000;
+    display: block;
+    min-height: 15px;
+    padding: 11px;
+	border-bottom:none;
+}
+div.heading-above-user-table span, div.heading-above-content-table span{
+	color: #14924a;
+    display: block;
+    float: left;
+    font: 13px Arial,Helvetica,sans-serif;
+    text-align: center;
+    width: 150px;
+	cursor:pointer;
+}
+.save-blk .laudd-config-btn{
+   background: none repeat scroll 0 0 #14924a;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-family: "opensemibold";
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 30px;
+}
+#jscroll-container{
+	max-height:463px;
+	overflow-y:scroll;
+}
+
+/*------------------- Notification Css -------------------------*/
+.message{
+     -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+     background-size: 40px 40px;
+     background-image: -webkit-gradient(linear, left top, right bottom,
+                color-stop(.25, rgba(255, 255, 255, .05)), color-stop(.25, transparent),
+                color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .05)),
+                color-stop(.75, rgba(255, 255, 255, .05)), color-stop(.75, transparent),
+                         to(transparent));
+     background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                         transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                         transparent 75%, transparent);
+     background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                         transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                         transparent 75%, transparent);
+     background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                          transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                          transparent 75%, transparent);
+     background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                          transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                           transparent 75%, transparent);
+     background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                           transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                            transparent 75%, transparent);
+     -moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+     -webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+     box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+     width: 97%;
+     border: 1px solid;
+     color: #fff;
+     padding: 15px;
+	 clear: both;
+
+     _position: absolute;
+
+     -webkit-animation: animate-bg 5s linear infinite;
+     -moz-animation: animate-bg 5s linear infinite;
+}
+.info{
+     background-color: #4ea5cd;
+     border-color: #3b8eb5;
+}
+
+.l_error{
+     background-color: #de4343;
+     border-color: #c43d3d;
+	 clear:both;
+}
+
+.warning{
+     background-color: #eaaf51;
+     border-color: #d99a36;
+}
+
+.l_success{
+     background-color: #14924a;
+     border-color: #55a12c;
+	 clear:both;
+}
+
+.message h3{
+	color:#fff;
+     margin: 0 0 5px 0;
+}
+
+.message p{
+     margin: 0;
+}
+.l_reg{
+	float: left;
+    margin-bottom: 20px;
+    width: 91%;
+}
+.l_reg .get-txt{
+	color:#fff !important;
+	font-size:20px;
+}
+
+@-webkit-keyframes animate-bg{
+    from {
+       background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+@-moz-keyframes animate-bg{
+    from {
+       background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+.content-stats-table .showmore{
+	display:none;
+}
+
+.td-immg{float:left; width:15%; border-right:1px solid #ddd; padding-right:2%;}
+.td-immg img{float:left; max-width:100%;}
+.td-descc{float:right; width:81%;}
+
+.black_overlay {
+    background-color: black;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.user-stats-invalid-email{display:none;float: left; width: 96%; background: rgb(237, 220, 132); padding: 5px 2%; margin: 0px 0; color: rgb(92, 81, 7);}
+.content-stats-invalid-email{display:none;float: left; width: 96%; background: rgb(237, 220, 132); padding: 5px 2%; margin: 0px 0; color: rgb(92, 81, 7);}
+
+
+/*New CSS*/
+
+.reg-instr { padding: 40px 0 10px 0; }
+.get-txt{ line-height: 25px; text-align: left !important;  }
+.thanks-btn {
+    background: none repeat scroll 0 0 #FFF;
+    border: medium none;
+    border-radius: 4px;
+    color: #14924a;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    font-family: "opensemibold";
+    font-size: 14px;
+    line-height: 38px;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
+
+.laudd-html .btn-cont {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+	padding-top: 10px;
+}
+/*New CSS*/
